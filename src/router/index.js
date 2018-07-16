@@ -1,6 +1,7 @@
 import React from 'react';
 import Infra from './infra';
 
+import { ROLES } from '../constants';
 import { DashboardLayout, LoginLayout } from 'layout';
 import { AdminDashboard } from 'pages/admin';
 
@@ -10,9 +11,9 @@ const routes = [{
 }, {
     path: '/',
     component: DashboardLayout,
+    access: ROLES.ADMIN,
     routes: [
         { exact: true, path: '/', component: AdminDashboard },
-        { path: '/a', component: () => (<div>Admin Dashboard 2</div>) },
     ]
 }];
 

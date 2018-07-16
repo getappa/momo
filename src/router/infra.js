@@ -1,7 +1,9 @@
 import React from "react";
 
-import { AdminRoute } from './auth';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { ROLES } from '../constants';
+
+import { AdminRoute } from './auth';
 
 const renderRoutes = (routes = []) => {
     return routes.map((route, i) => {
@@ -9,16 +11,29 @@ const renderRoutes = (routes = []) => {
     });
 }
 
-const RouteWithSubRoutes = ({path, routes, ...extra}) => (
-    <Route
-        path={path}
-        render={props => (
-            <extra.component {...props}>
-                <Switch>{renderRoutes(routes)}</Switch>
-            </extra.component>
-        )}
-    />
-);
+const getByAccess = (access) => {
+    if (access === ROLES.ADMIN) {
+        return AdminRoute;
+    }
+
+    return Route;
+}
+
+const RouteWithSubRoutes = ({path, routes, access, component}) => {
+    const Component = component;
+    const RouteComponent = getByAccess(access);
+
+    return (
+        <RouteComponent
+            path={path}
+            render={props => (
+                <Component {...props}>
+                    <Switch>{renderRoutes(routes)}</Switch>
+                </Component>
+            )}
+        />
+    );
+}
 
 export const AppRouter = ({ routes }) => (
     <Router>
