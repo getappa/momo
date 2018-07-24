@@ -19,7 +19,7 @@ const getByAccess = (access) => {
     return Route;
 }
 
-const RouteWithSubRoutes = ({path, routes, access, component}) => {
+const RouteWithSubRoutes = ({path, routes, access, component, extraProps}) => {
     const Component = component;
     const RouteComponent = getByAccess(access);
 
@@ -27,7 +27,7 @@ const RouteWithSubRoutes = ({path, routes, access, component}) => {
         <RouteComponent
             path={path}
             render={props => (
-                <Component {...props}>
+                <Component {...{...props, ...extraProps}}>
                     <Switch>{renderRoutes(routes)}</Switch>
                 </Component>
             )}

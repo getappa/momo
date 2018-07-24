@@ -2,16 +2,21 @@ import React from 'react';
 import Infra from './infra';
 
 import { ROLES } from '../constants';
-import { DashboardLayout, LoginLayout } from '@opensanca/burro-react';
+import { DashboardLayout } from '@opensanca/burro-react';
+
+import { Login } from 'pages/login';
 import { AdminDashboard } from 'pages/admin';
 
 const routes = [{
     path: '/login',
-    component: LoginLayout
+    component: Login
 }, {
     path: '/',
     component: DashboardLayout,
     access: ROLES.ADMIN,
+    extraProps: {
+        logo: ''
+    },
     routes: [
         { exact: true, path: '/', component: AdminDashboard },
     ]

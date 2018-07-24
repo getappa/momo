@@ -1,11 +1,28 @@
 import React from 'react';
-import { Button } from '@opensanca/burro-react';
+import { Grid, Row, Column } from '@opensanca/burro-react';
 
 export const AdminDashboard = () => (
-    <div>
-        Admin Dashboard
-        <Button kind="primary"> Hello </Button>
-    </div>
+    <Grid>
+        <Row>
+            <Column xs={12}>
+                <div>
+                    General Status
+                </div>
+            </Column>
+        </Row>
+        <Row>
+            <Column xs={6}>
+                <div>
+                    Tasks
+                </div>
+            </Column>
+            <Column xs={6}>
+                <div>
+                    Process Entities
+                </div>
+            </Column>
+        </Row>
+    </Grid>
 );
 
 export default AdminDashboard;
