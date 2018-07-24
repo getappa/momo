@@ -2,7 +2,7 @@ import React from 'react';
 import Infra from './infra';
 
 import { ROLES } from '../constants';
-import { DashboardLayout, LoginLayout } from 'layout';
+import { DashboardLayout, LoginLayout } from '@opensanca/burro-react';
 import { AdminDashboard } from 'pages/admin';
 
 const routes = [{

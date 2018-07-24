@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'components';
+import { Button } from '@opensanca/burro-react';
 
 export const AdminDashboard = () => (
     <div>
