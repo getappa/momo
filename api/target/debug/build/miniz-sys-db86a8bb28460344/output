@@ -1,0 +1,36 @@
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+DEBUG = Some("true")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-Wall" "-Wextra" "-o" "/Users/guidiego/workspace/appa/momo/api/target/debug/build/miniz-sys-db86a8bb28460344/out/miniz.o" "-c" "miniz.c"
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+running: "ar" "crs" "/Users/guidiego/workspace/appa/momo/api/target/debug/build/miniz-sys-db86a8bb28460344/out/libminiz.a" "/Users/guidiego/workspace/appa/momo/api/target/debug/build/miniz-sys-db86a8bb28460344/out/miniz.o"
+exit code: 0
+TARGET = Some("x86_64-apple-darwin")
+cargo:rustc-link-lib=static=miniz
+cargo:rustc-link-search=native=/Users/guidiego/workspace/appa/momo/api/target/debug/build/miniz-sys-db86a8bb28460344/out
+cargo:root=/Users/guidiego/workspace/appa/momo/api/target/debug/build/miniz-sys-db86a8bb28460344/out

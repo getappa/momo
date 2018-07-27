@@ -1,0 +1,9 @@
+[package]
+name = "api"
+version = "0.1.0"
+authors = ["Guilherme Diego <guidiego.expgames@gmail.com>"]
+
+[dependencies]
+futures = "0.1"
+actix = "0.7"
+actix-web = "^0.7"

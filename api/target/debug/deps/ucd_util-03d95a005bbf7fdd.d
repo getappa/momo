@@ -1,0 +1,11 @@
+/Users/guidiego/workspace/appa/momo/api/target/debug/deps/libucd_util-03d95a005bbf7fdd.rlib: /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs
+
+/Users/guidiego/workspace/appa/momo/api/target/debug/deps/ucd_util-03d95a005bbf7fdd.d: /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs
+
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/lib.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/hangul.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/ideograph.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/name.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/property.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/mod.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/ucd-util-0.1.1/src/unicode_tables/jamo_short_name.rs:

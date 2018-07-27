@@ -1,0 +1,10 @@
+/Users/guidiego/workspace/appa/momo/api/target/debug/deps/libparking_lot_core-61f9f166eaf29c8c.rlib: /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/lib.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/thread_parker/unix.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/util.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/spinwait.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/word_lock.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/parking_lot.rs
+
+/Users/guidiego/workspace/appa/momo/api/target/debug/deps/parking_lot_core-61f9f166eaf29c8c.d: /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/lib.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/thread_parker/unix.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/util.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/spinwait.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/word_lock.rs /Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/parking_lot.rs
+
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/lib.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/thread_parker/unix.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/util.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/spinwait.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/word_lock.rs:
+/Users/guidiego/.cargo/registry/src/github.com-1ecc6299db9ec823/parking_lot_core-0.2.14/src/parking_lot.rs:
