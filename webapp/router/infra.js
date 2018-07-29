@@ -1,5 +1,7 @@
 import React from "react";
+import store from 'dataflow/store';
 
+import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { ROLES } from '../constants';
 
@@ -36,9 +38,11 @@ const RouteWithSubRoutes = ({path, routes, access, component, extraProps}) => {
 }
 
 export const AppRouter = ({ routes }) => (
-    <Router>
-        <Switch>{renderRoutes(routes)}</Switch>
-    </Router>
+    <Provider store={store}>
+        <Router>
+            <Switch>{renderRoutes(routes)}</Switch>
+        </Router>
+    </Provider>
 );
 
 export default AppRouter;

@@ -5,7 +5,9 @@ extern crate futures;
 use std::env;
 use futures::Future;
 use actix_web::{
-    client, server, http, App, AsyncResponder, Error, HttpMessage, HttpRequest, HttpResponse
+    fs, client, server, http,
+    App, AsyncResponder, Error, HttpMessage,
+    HttpRequest, HttpResponse
 };
 
 fn appa_proxy(req: &HttpRequest) -> Box<Future<Item = HttpResponse, Error = Error>> {
@@ -45,6 +47,7 @@ fn appa_proxy(req: &HttpRequest) -> Box<Future<Item = HttpResponse, Error = Erro
 fn create_app() -> App {
     App::new()
         .handler("/appa", appa_proxy)
+        .handler("/", fs::StaticFiles::new("./static/").unwrap().index_file("index.html"))
 }
 
 fn main() {
@@ -52,7 +55,7 @@ fn main() {
 
     server::new(|| create_app())
         .workers(1)
-        .bind("127.0.0.1:8080")
+        .bind("127.0.0.1:3000")
         .unwrap()
         .start();
 

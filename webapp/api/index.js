@@ -10,7 +10,7 @@ const crud = (path) => ({
 
 export const api = forge({
   clientId: 'api',
-  host: '/',
+  host: 'http://127.0.0.1:3000/',
   resources: {
     Tasks: crud('/appa/task'),
     ProcessorEntities: crud('/appa/processor'),

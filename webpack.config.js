@@ -2,19 +2,19 @@ const path = require('path');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 const htmlPlugin = new HtmlWebPackPlugin({
-  template: "./src/index.html",
+  template: "./webapp/index.html",
   filename: "./index.html"
 });
 
 module.exports = {
-    entry: "./src/App.js",
+    entry: "./webapp/App.js",
     output: {
-        path: path.resolve('dist'),
+        path: path.resolve('api/static'),
         filename: 'bundled.js'
     },
     resolve: {
         modules: [
-            path.resolve(__dirname, 'src'),
+            path.resolve(__dirname, 'webapp'),
             'node_modules'
         ]
     },
